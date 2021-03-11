@@ -10,5 +10,5 @@ Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 
 
 Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
 
-1. [Two point Solution](/problem-1(two-point).swift)
-2. [Hash Table Solution](/problem-1(hash-table).swift)
+1. [Two point Solution](/problem-01(two-point).swift)
+2. [Hash Table Solution](/problem-01(hash-table).swift)
