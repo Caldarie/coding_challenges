@@ -12,6 +12,6 @@ Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and s
 
 1. [Two point Solution](problems/problem-01(two-point).swift) - **Needs to be fixed!** 
    * Problem 1: hardcoded string value "SFO". Avoid this!
-   * Problem 2: Required to handle errors and inconsistencies - use assert
+   * Problem 2: Required to handle errors and inconsistencies (use assert to check for one intial departure city, or if the length of each array doesnt not match)
    * Problem 3: Four levels of nested clauses which make it difficult to follow. Try to aim for one.
 2. [Hash Table Solution](problems/problem-01(hash-table).swift)
