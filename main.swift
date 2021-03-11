@@ -8,5 +8,9 @@
 import Foundation
 
 //Problem 1
-print(getIntineraryTwoPoint(boardTicket: [["RED", "BLU"], ["LAX", "HNL"], ["SFO", "LAX"], ["NRT", "RED"], ["HNL", "NRT"]]))
+let boardTicket = [["RED", "BLU"], ["LAX", "HNL"], ["SFO", "LAX"], ["NRT", "RED"], ["HNL", "NRT"]]
+let itinerary = getIntineraryTwoPoint(boardTicket: boardTicket)
+assert(itinerary == ["SFO", "LAX", "HNL", "NRT", "RED", "BLU"] )
+
+
 
