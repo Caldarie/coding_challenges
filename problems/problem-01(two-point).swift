@@ -24,7 +24,6 @@ func getIntineraryTwoPoint(boardTicket: [[String]]) -> [String]{
         
         //check if desination has SFO
         if(remainingDest[left].contains(intialDestination)){
-            print("a")
             //iterates the inner array and records the last string to check duplicates
             for (index, destination) in remainingDest[left].enumerated(){
                 result.append(destination)
@@ -33,17 +32,16 @@ func getIntineraryTwoPoint(boardTicket: [[String]]) -> [String]{
                 }
             }
             
-            //resets left index
-            left = -1
-            
             //Removes the destination from the array and resize right index
             remainingDest.remove(at: left)
-            right -= 1 
+            right -= 1
+            
+            //resets left index
+            left = -1
         }
         
         //check if remaining destinations contain last string
         else if(remainingDest[left].contains(lastString)){
-            print("b")
             
             //iterates the inner array, remove duplicate and records the last string
             for (index, destination) in remainingDest[left].enumerated(){
@@ -57,15 +55,15 @@ func getIntineraryTwoPoint(boardTicket: [[String]]) -> [String]{
                 }
             }
             
-            //resets left index
-            left = -1
-            
             //Removes the destination from the array and resize right index
             remainingDest.remove(at: left)
-            right -= 1 
+            right -= 1
             
+            //resets left index
+            left = -1
+        
+            //skips values that dont match last string 
         }else{
-            print("c")
             
         }
         

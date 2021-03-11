@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4CC88ADC25FA267800FA9B36 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC88ADB25FA267800FA9B36 /* main.swift */; };
-		4CC88AE925FA335800FA9B36 /* problem-01(hash-table).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC88AE825FA335800FA9B36 /* problem-01(hash-table).swift */; };
-		4CC88AEC25FA335D00FA9B36 /* problem-01(two-point).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC88AEB25FA335C00FA9B36 /* problem-01(two-point).swift */; };
+		4CC88AF025FA38E700FA9B36 /* problem-01(two-point).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC88AEF25FA38E700FA9B36 /* problem-01(two-point).swift */; };
+		4CC88AF325FA390600FA9B36 /* problem-01(hash-table).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC88AF225FA390600FA9B36 /* problem-01(hash-table).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,8 @@
 /* Begin PBXFileReference section */
 		4CC88ADA25FA267700FA9B36 /* coding-challenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "coding-challenges"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC88ADB25FA267800FA9B36 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		4CC88AE825FA335800FA9B36 /* problem-01(hash-table).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "problem-01(hash-table).swift"; sourceTree = "<group>"; };
-		4CC88AEB25FA335C00FA9B36 /* problem-01(two-point).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "problem-01(two-point).swift"; sourceTree = "<group>"; };
+		4CC88AEF25FA38E700FA9B36 /* problem-01(two-point).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "problem-01(two-point).swift"; path = "problems/problem-01(two-point).swift"; sourceTree = "<group>"; };
+		4CC88AF225FA390600FA9B36 /* problem-01(hash-table).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "problem-01(hash-table).swift"; path = "problems/problem-01(hash-table).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +47,8 @@
 			children = (
 				4CC88ADB25FA267800FA9B36 /* main.swift */,
 				4CC88ADA25FA267700FA9B36 /* coding-challenges */,
-				4CC88AE825FA335800FA9B36 /* problem-01(hash-table).swift */,
-				4CC88AEB25FA335C00FA9B36 /* problem-01(two-point).swift */,
+				4CC88AEF25FA38E700FA9B36 /* problem-01(two-point).swift */,
+				4CC88AF225FA390600FA9B36 /* problem-01(hash-table).swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,9 +110,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC88AEC25FA335D00FA9B36 /* problem-01(two-point).swift in Sources */,
-				4CC88AE925FA335800FA9B36 /* problem-01(hash-table).swift in Sources */,
+				4CC88AF325FA390600FA9B36 /* problem-01(hash-table).swift in Sources */,
 				4CC88ADC25FA267800FA9B36 /* main.swift in Sources */,
+				4CC88AF025FA38E700FA9B36 /* problem-01(two-point).swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
