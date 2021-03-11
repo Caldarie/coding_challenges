@@ -1,4 +1,4 @@
-# Coding Challenges
+# Coding Challenges with Swift
 
 ## Problem 1 - Oplus
 
