@@ -10,5 +10,8 @@ Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 
 
 Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
 
-1. [Two point Solution](problems/problem-01(two-point).swift) - **Needs to be fixed:** hardcoded string value "SFO", handle errors and inconsistencies, nested clauses - 4 in total
-3. [Hash Table Solution](problems/problem-01(hash-table).swift)
+1. [Two point Solution](problems/problem-01(two-point).swift) - **Needs to be fixed!** 
+   * Problem 1: hardcoded string value "SFO"
+   * Problem 2: Required to handle errors and inconsistencies
+   * Problem 3: 4 levels of nested clauses which make it difficult to follow
+2. [Hash Table Solution](problems/problem-01(hash-table).swift)
