@@ -7,9 +7,7 @@
 
 import Foundation
 
-let boardTicket = [["RED", "BLU"], ["LAX", "HNL"], ["SFO", "LAX"], ["NRT", "RED"], ["HNL", "NRT"]]
-
-func getIntinerary(_ dest: [[String]]) -> [String]{
+func getIntineraryTwoPoint(boardTicket: [[String]]) -> [String]{
     
     let intialDestination = "SFO"
     var result: [String] = []
@@ -68,5 +66,3 @@ func getIntinerary(_ dest: [[String]]) -> [String]{
     
     return result
 }
-
-print(getIntinerary(boardTicket))
