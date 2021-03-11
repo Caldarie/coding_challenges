@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		4CC88ADA25FA267700FA9B36 /* coding-challenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "coding-challenges"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC88ADB25FA267800FA9B36 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4CC88AE625FA2C2500FA9B36 /* problems */ = {isa = PBXFileReference; lastKnownFileType = folder; path = problems; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,7 @@
 			children = (
 				4CC88ADB25FA267800FA9B36 /* main.swift */,
 				4CC88ADA25FA267700FA9B36 /* coding-challenges */,
+				4CC88AE625FA2C2500FA9B36 /* problems */,
 			);
 			sourceTree = "<group>";
 		};
